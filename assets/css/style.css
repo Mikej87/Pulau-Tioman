@@ -10,6 +10,8 @@ body {
 
 /* Container */
 .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
@@ -33,7 +35,8 @@ header {
     font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: #f3d7bf;
-    margin-left: 400px;
+    margin-left: 800px;
+    margin-top: 100px;
 }
 
 /* Navigation */
@@ -70,7 +73,7 @@ nav a:hover {
     color: #90e0ef;
 }
 
-navwrap {
+.navwrap {
     position: relative;
     display: flex;
 }
@@ -80,6 +83,12 @@ main {
     margin-top: 2rem;
 }
 
+h2 {
+    color: #023e8a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
 /* Footer */
 footer {
     background: #023e8a;
@@ -88,7 +97,7 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
     font-size: 0.9rem;
-    height: 50px;
+    height: 80px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -119,6 +128,8 @@ footer a {
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
+        grid-template-columns: 1fr;
+        display: grid;
     }
     nav ul {
         flex-direction: column;
@@ -144,19 +155,38 @@ footer a {
         color: #f3d7bf;
     }
     .about { 
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        grid-template-columns: 1fr 2fr;
         gap: 1rem;
-        align-items: start;
+        align-items: center;
     }
 
     .about_image {
-        width: 100%;
-        height: auto;
+        width: 200px;
+        height: 200px;
+        grid-template-columns: 2fr;
     }   
 
     .about_text {
+        grid-template-columns: 1fr;
         gap: 1rem;
         display: grid;
+    }
+}
+
+@media(min-width:992px) {
+    nav {
+        display: block;
+        position: static;
+        background: none;
+        padding: 0;
+    }
+    #menu {
+        display: none;
+    }   
+    .about {
+        
+        grid-template-columns: 600px 1fr;
+        
     }
 }
