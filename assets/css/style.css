@@ -190,3 +190,50 @@ footer a {
         
     }
 }
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.split--reverse {
+  grid-auto-flow: dense;
+}
+
+.split__text {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 992px) {
+  .split {
+    grid-template-columns: 1fr 600px;
+  }
+  .split--reverse {
+    grid-template-columns: 600px 1fr;
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image--square {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+p {
+  color: #1b3b77;
+  background-color: #f3d7bf;
+  font-size: 1rem;
+  font-style: italic;
+  max-width: 800px;
+  opacity: 0.99;
+  font-weight: bold;
+  margin: 0 auto;
+}
