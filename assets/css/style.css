@@ -156,7 +156,7 @@ footer a {
     }
     .about { 
         display: flex;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         align-items: center;
     }
@@ -164,7 +164,7 @@ footer a {
     .about_image {
         width: 200px;
         height: 200px;
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }   
 
     .about_text {
@@ -176,13 +176,14 @@ footer a {
 
 @media(min-width:992px) {
     nav {
-        display: block;
+        display: flex;
         position: static;
         background: none;
         padding: 0;
     }
     #menu {
-        display: none;
+        display: flex;
+        position: static;
     }   
     .about {
         
@@ -290,4 +291,52 @@ p {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.form-label {
+  color: #244d88;
+  text-decoration: underline;
+  display: block;
+  margin-top: 1rem;
+}
+
+.name {
+  color: #f3d78f;
+  background-color: #1b3b77;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+.email {
+  color: #f3d7bf;
+  background-color: #1b3b77;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.75rem;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: #f3d78f;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
+
+.site-footer {
+  width: 100%;
+  margin-top: 2rem;
 }
