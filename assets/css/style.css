@@ -240,13 +240,13 @@ p {
 
 .custom-carousel {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .custom-carousel .carousel-item img {
   width: 100%;
-  height: 600px;
+  height: 900px;
   object-fit: cover;
 }
 .history-hero {
@@ -274,4 +274,20 @@ p {
 #cover-text > h2 {
   color: #1b3b77;
   margin: 0;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gallery__item {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
