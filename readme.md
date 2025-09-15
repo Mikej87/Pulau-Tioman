@@ -209,7 +209,7 @@ The Tioman Island website was deployed early in the process to GitHub pages via 
 - Go to navigation and select the pages.
 - Go to the none dropdown and choose main.
 - Click on the save button.
-- the website is now live at [Tioman-Island](https://mikej87.github.io/Tioman-Island/index.html)
+- the website is now live at [Pulau-Tioman](https://mikej87.github.io/Pulau-Tioman/index.html)
 
   *Any changes required to the website, they can be made, commited and pushed to GitHub.*
 
