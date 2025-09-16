@@ -337,7 +337,15 @@ h2{ margin:0; }
   background-color: #fff;
 }
 
-&copy { 
-    text-align: center;
+.copyright { 
+    margin-left: 40%;
     padding: 1rem;
+}
+
+.thankyouimg {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    max-width: 600px;
+    height: auto;
 }
