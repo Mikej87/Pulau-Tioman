@@ -1,4 +1,4 @@
-# **Tioman-Island**
+# **Pulau-Tioman**
 
 **Tioman Island promotion webpage**
 
