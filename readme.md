@@ -155,10 +155,10 @@ The website was vigoruosly tested for functionality using both Chrome and Edge d
 
 I have use the web accessibility tool WAVE which helps determine if the content on the web page is accessible to 
 individuals with diverse needs. There is one warning on the nav but this is an essential link for the home page. Images below of each page being tested.
-![Wavetool](assets/images/wave1.jpg)
-![wavetool](assets/images/wave2.jpg)
-![Wavetool](assets/images/wave3.jpg)
-![Wavetool](assets/images/wave4.jpg)
+![Wavetool](assets/images/wave1.jpg.png)
+![wavetool](assets/images/wave2.jpg.png)
+![Wavetool](assets/images/wave3.jpg.png)
+![Wavetool](assets/images/wave4.jpg.png)
 
 ### Lighthouse testing 
 
