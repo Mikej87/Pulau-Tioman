@@ -342,10 +342,3 @@ h2{ margin:0; }
     padding: 1rem;
 }
 
-.thankyouimg {
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    object-fit: cover;
-    max-width: 600px;
-    height: auto;
-}
