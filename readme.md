@@ -178,8 +178,8 @@ The Tioman Island website was examined for bugs and malfunctions using a variety
 
 ### HTML
 
-I have used W3C HTML Validation Service. I have tested all 3 html files.
-They all came back with no errors.
+I have used W3C HTML Validation Service. I have tested both html files.
+They both came back with no errors.
 ![htmlvalidator](assets/images/indexcheck1.png)
 ![htmlvalidator](assets/images/thankyoucheck1.png)
 
